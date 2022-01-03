@@ -42,20 +42,20 @@ function App() {
 
   return (
     <>
-      <Router>
+      {/* <Router> */}
         <Navbar title="TextUtils" mode={Mode} ToggleMode={ToggleMode} />
         <MyAlert alert={Alert} />
 
-        <Switch>
-          <Route exact path="/about">
-            <About mode={Mode} />
-          </Route>
-          <Route exact path="/">
+        {/* <Switch> */}
+          {/* <Route exact path="/about"> */}
+            {/* <About mode={Mode} /> */}
+          {/* </Route> */}
+          {/* <Route exact path="/"> */}
             <TextForm Heading="Type Your Text Here." mode={Mode} ShowAlert={ShowAlert} />
-          </Route>
+          {/* </Route>
         </Switch>
 
-      </Router>
+      </Router> */}
     </>
   );
 }
